@@ -4,7 +4,8 @@ Script to quickly setup any Raspberry Pi or Linux computer on Ubuntu / Debian.
 Will remove the info menu on terminal startup and will reboot system
 
 ## The Code
-```#!/bin/bash
+```shell
+#!/bin/bash
 echo "[-] touch .hushlogin"
 touch .hushlogin &>/dev/null && echo "[+] done" || echo "[!] errors"
 echo
