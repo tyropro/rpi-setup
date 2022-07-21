@@ -1,5 +1,5 @@
 echo "[-] touch .hushlogin"
-touch .hushlogin && echo "[+] done" || echo "[!] errors"
+touch .hushlogin >/dev/null && echo "[+] done" || echo "[!] errors"
 
 echo "[+] sudo apt update -y"
 sudo apt update -y >/dev/null && echo "[+] done" || echo "[!] errors"
