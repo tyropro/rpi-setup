@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "[-] touch .hushlogin"
 touch .hushlogin &>/dev/null && echo "[+] done" || echo "[!] errors"
 echo
